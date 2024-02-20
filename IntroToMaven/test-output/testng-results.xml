@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OrangeHRM_DataDrivenFrmWrk" duration-ms="13787" started-at="2024-02-20T19:59:35 IST" finished-at="2024-02-20T19:59:49 IST">
+    <groups>
+    </groups>
+    <test name="Login Using Data Driven FrameWork" duration-ms="12535" started-at="2024-02-20T19:59:35 IST" finished-at="2024-02-20T19:59:48 IST">
+      <class name="testCase.Login_Website">
+        <test-method status="PASS" signature="Login_Page(java.lang.String, java.lang.String)[pri:0, instance:testCase.Login_Website@32e6e9c3]" name="Login_Page" duration-ms="3247" started-at="2024-02-20T19:59:35 IST" data-provider="SendData" finished-at="2024-02-20T19:59:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ADMIN43]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Page -->
+        <test-method status="PASS" signature="Login_Page(java.lang.String, java.lang.String)[pri:0, instance:testCase.Login_Website@32e6e9c3]" name="Login_Page" duration-ms="2768" started-at="2024-02-20T19:59:39 IST" data-provider="SendData" finished-at="2024-02-20T19:59:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dummy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Page -->
+        <test-method status="PASS" signature="Login_Page(java.lang.String, java.lang.String)[pri:0, instance:testCase.Login_Website@32e6e9c3]" name="Login_Page" duration-ms="2935" started-at="2024-02-20T19:59:41 IST" data-provider="SendData" finished-at="2024-02-20T19:59:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dummy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DUMMY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Page -->
+        <test-method status="PASS" signature="Login_Page(java.lang.String, java.lang.String)[pri:0, instance:testCase.Login_Website@32e6e9c3]" name="Login_Page" duration-ms="3291" started-at="2024-02-20T19:59:44 IST" data-provider="SendData" finished-at="2024-02-20T19:59:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Page -->
+      </class> <!-- testCase.Login_Website -->
+    </test> <!-- Login Using Data Driven FrameWork -->
+    <test name="Logout WebPage" duration-ms="1180" started-at="2024-02-20T19:59:48 IST" finished-at="2024-02-20T19:59:49 IST">
+      <class name="testCase.Logout_Website">
+        <test-method status="PASS" signature="LoadSysetmProperties()[pri:0, instance:testCase.Logout_Website@6d00a15d]" name="LoadSysetmProperties" is-config="true" duration-ms="5864" started-at="2024-02-20T19:59:29 IST" finished-at="2024-02-20T19:59:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoadSysetmProperties -->
+        <test-method status="PASS" signature="Logout_Site()[pri:0, instance:testCase.Logout_Website@6d00a15d]" name="Logout_Site" duration-ms="1179" started-at="2024-02-20T19:59:48 IST" finished-at="2024-02-20T19:59:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout_Site -->
+        <test-method status="PASS" signature="Close_Brow()[pri:0, instance:testCase.Logout_Website@6d00a15d]" name="Close_Brow" is-config="true" duration-ms="753" started-at="2024-02-20T19:59:49 IST" finished-at="2024-02-20T19:59:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Brow -->
+      </class> <!-- testCase.Logout_Website -->
+    </test> <!-- Logout WebPage -->
+  </suite> <!-- OrangeHRM_DataDrivenFrmWrk -->
+</testng-results>
